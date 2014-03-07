@@ -6,7 +6,7 @@ Aprende crear versiones de tus proyectos de una vez por todas con esta guía que
 Desarrolladores 
 -------
 
-_Git-desde-cero_** se mantiene vivo a través de:
+_Git-desde-cero_ se mantiene vivo a través de:
 
 Luis Alfredo Moctezuma - @[Luis](https://twitter.com/LuisAlfredoMoc)
 
