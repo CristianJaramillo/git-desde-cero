@@ -19,45 +19,30 @@
 		<!-- Pagina1 -->
 		<article>
 			<header>
-				<h2>Status</h2>
+				<h2>Crea el usuario</h2>
 			</header>
 
-			<pre>git status -sb</pre>
-			<pre>## <span class="green">branch name</span>
-<span class='green'>M</span> modified.file
-<span class='red'>D</span> deleted.file
-<span class='green'>A</span> added.file
-<span class='white'>??</span> unstaged.file
-			</pre>
+			<pre>git config --global user.name "John Doe"</pre>
 			<p class='description'>
-				Muestra una versi&oacute;n reducida de git status
+				Configura globalmente al usuario
 			</p>
-			<footer>
-				<a href="http://git-scm.com/docs/git-status" target='_blank'>git-status</a>
-			</footer>
-		</article>
+			<pre>git config --global user.email johndoe@example.com</pre>
+
+			<p class='description'>
+				Configura el correo del usuario
+			</p>
+		</article>		
+
 		<!-- Pagina2 -->
 		<article>
 			<header>
-				<h2>Log</h2>
+				<h2>Inicializa el repositorio</h2>
 			</header>
 			<ul>
 				<li>
-					<pre>git log --oneline</pre>
+					<pre>git init</pre>
 					<p class='description'>
-						Despliega un commit por l&iacute;nea
-					</p>
-				</li>
-				<li>
-					<pre>git log --graph</pre>
-					<p class='description'>
-						Despliega el historial mostrando graficamente como estan conectados los commits
-					</p>
-				</li>
-				<li>
-					<pre>git log -1 HEAD</pre>
-					<p class='description'>
-						Muestra el &uacute;ltimo commit
+						Inicia el repositorio del proyecto en el cual vamos a trabajar
 					</p>
 				</li>
 			</ul>
@@ -67,19 +52,40 @@
 		<!-- Pagina3 -->
 		<article>
 			<header>
-				<h2>Buscando en Log</h2>
+				<h2>Agraga los archivos</h2>
 			</header>
 			<ul>
 				<li>
-					<pre>git log --grep</pre>
+					<pre>git add .</pre>
 					<p class='description'>
-						Busca en el mensaje del commit
+						Agrega todos archivos
 					</p>
 				</li>
 				<li>
-					<pre>git log -S</pre>
+					<pre>git add index.html</pre>
 					<p class='description'>
-						Busca dentro del contenido del commit
+						Agrega un archivo en espec&iacute;fico
+					</p>
+				</li>
+			</ul>
+		</article>
+
+		<!-- Pagina3 -->
+		<article>
+			<header>
+				<h2>Crea una rama</h2>
+			</header>
+			<ul>
+				<li>
+					<pre>git </pre>
+					<p class='description'>
+						Agrega todos archivos
+					</p>
+				</li>
+				<li>
+					<pre>git add index.html</pre>
+					<p class='description'>
+						Agrega un archivo en espec&iacute;fico
 					</p>
 				</li>
 			</ul>
