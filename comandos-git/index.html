@@ -33,6 +33,39 @@
 			</p>
 		</article>		
 
+		<article>
+			<header>
+				<h2>Configurar claves SSH</h2>
+			</header>
+
+			<pre>ls ~/.ssh</pre>
+			<p class='description'>
+				Vemos si ya tenemos alguna clave creada
+
+			</p>
+			<pre>ssh-keygen -f ~/.ssh/NameKey -C "nombre@email.com"</pre>
+
+			<p class='description'>
+				Se generan dos archivos "NameKey" y "NameKey.pub" donde "NameKey" es tu clave privada y "NameKey.pub" es tu clave publica
+			</p>
+		</article>	
+
+		ver p
+		<article>
+			<header>
+				<h2>cat</h2>
+			</header>
+
+			<pre>cat ~/.ssh/NameKey.pub </pre>
+			<p class='description'>
+				Nos muestra la llave creada:<br>
+			ssh-rsa AAAAB3NzaC1yc2EAAAABIwAAAQEAznaEJdlPqg/b15FjlS91mOvJOKg
+			NJvn5If/aHQmEnaeLHW7CA6vZjaYi2QoM+YPqxkdv0wwPqpaynAiL4Bv
+			66kCdFV+zpcvHsu7GtMmACv7dnAuWllG2dORzXb9rxsU6ojFYBjgoLcM
+			mRCRQwV7kQ== cristian_jaramillo@live.com.mx
+			</p>
+		</article>	
+
 
 		<article>
 			<header>
